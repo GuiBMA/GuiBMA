@@ -1,0 +1,3 @@
+- 👋 Oi, eu sou Goku
+- 👀 Procurando a Puma
+- 🌱 Aprendendo a controlar o Ki
