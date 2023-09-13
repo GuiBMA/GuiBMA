@@ -1,0 +1,38 @@
+#server
+
+from socket import socket, AF_INET, SOCK_STREAM
+
+server_port = 12001
+
+server_socket = socket(AF_INET, SOCK_STREAM)
+server_socket.bind(('', server_port))
+
+server_socket.listen(1)
+
+print("Servidor pronto!")
+
+while True:
+    connection_socket, addr = server_socket.accept()
+    msg = connection_socket.recv(1024).decode()
+    msg_modificada = msg.upper()
+    connection_socket.send(msg_modificada.encode())
+    connection_socket.close()
+
+#-----------------------------------------------------------------
+#Client
+
+from socket import socket, AF_INET, SOCK_STREAM
+server_name = 'localhost'
+
+server_port = 12001
+
+client_socket = socket(AF_INET, SOCK_STREAM)
+client_socket.connect((server_name, server_port))
+
+msg = input('Entre minúsculas \n')
+client_socket.send(msg.encode())
+
+msg_modificada = client_socket.recv(1024)
+
+print(msg_modificada.decode())
+client_socket.close()
