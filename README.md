@@ -15,12 +15,17 @@
 </div>
 
 ## GitHub Statistics
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GuiBMA&show_icons=true&theme=tokyonight)
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GuiBMA&layout=compact&theme=tokyonight)
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GuiBMA&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GuiBMA&layout=compact&langs_count=7&theme=tokyonight"/>
+</div>
 
 ## Contact
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-linkedin)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@gmail.com)
+<div align="center">
+  <a href="https://www.linkedin.com/in/guilherme-almeida-1467b21a2/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
+  </a>
+</div>
 
 ---
 ⭐️ From [GuiBMA](https://github.com/GuiBMA)
